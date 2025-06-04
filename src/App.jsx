@@ -3,6 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import Home from './components/Home'
 import './App.css'
+import HomePage from './components/HomePage'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -10,6 +11,7 @@ function App() {
   return (
    <div className='App'>
     <Home/>
+    <HomePage/>
    </div>
   )
 }

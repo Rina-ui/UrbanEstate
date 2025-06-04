@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.App-header{
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    color: #000000;
+    justify-content: space-between;
+    padding: 10px 20px;
+
+
+}
+
+h3{
+    margin: 20px, 0;
+}
+
+h3 span{
+    color: #ff0000;
+}
+
+.part1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    gap: 35px;
+}
+
+.part1 li{
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.part2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    margin-left: 160px;
+    
+}
+
+.part2 li{
+    font-size: 12px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif; 
+}
+
+button{
+    background-color: #ff0000;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 50px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px, 0;
+    flex-direction: row;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 15px;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li{
+    font-size: 18px;
+    font-weight: 400;
+    position: relative;
+}
+
